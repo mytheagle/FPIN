@@ -2,6 +2,74 @@
 <HTML> 
 
   <HEAD>
+    <style>
+      .main {
+          position: absolute;
+          z-index:11;
+          background-color: #9ff0ff;
+          width: 90%;
+          height: 90%;
+          text-align: center;
+          padding: 0 auto;
+          bottom: 50px;
+        
+          box-shadow: 5px 5px 10px #0076a3;
+          -webkit-box-shadow: 5px 5px 10px #0076a3;
+          -moz-box-shadow: 5px 5px 10px #0076a3;
+        }
+        .head {
+          position: absolute;
+          padding: 0 auto;
+          left: 5%;
+          top: 10px;
+          z-index:12;
+          background-color:darkgrey;
+          width: 90%;
+          height: 5%;
+          align-items: center;
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          justify-content: center;
+          box-shadow: 5px 5px 10px #0076a3;
+          -webkit-box-shadow: 5px 5px 10px #0076a3;
+          -moz-box-shadow: 5px 5px 10px #0076a3;
+        }
+          #menu:hover {
+          display: inline-block;
+          width:  5%;
+          height: 90%;
+          background-color:whitesmoke;
+        }
+        #menu {
+          align-items: baseline;
+          font-size: 20px;
+          display: inline-block;
+          width:  5%;
+          height: 90%;
+          background-color:grey;
+          margin-left: 10px;
+          border-radius: 25px;
+        }
+        #menu.p{
+  text-align:center; 
+  vertical-align: middle;
+  display: table-cell;
+        }
+    body {
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        background-color: linen;
+        }
+
+    h1 {
+        color: maroon;
+        margin-left: 40px;
+        } 
+    </style>
   <meta charset="UTF-8">
   <meta name="description" content="Projeto de FPIN">
   <meta name="keywords" content="HTML,CSS,JavaScript">
@@ -11,7 +79,16 @@
   
   <BODY>
     <div class="main">
-      <p>Em construção...</p>
+        <div class="head">
+        <DIV id="menu">
+            <P>Home</P>
+        </div>
+        <DIV id="menu">
+        <P>Sobre</P>
+        </div>
+        <DIV id="menu">
+        <P>Contato</P>
+        </div>
     </div>
   </BODY>
   
